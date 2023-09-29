@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Qtd_Quartos__c</fullName>
+    <description>Informe a quantidade de quartos da casa</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informe a quantidade de quartos</inlineHelpText>
+    <label>Quantidade de Quartos</label>
+    <precision>18</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
