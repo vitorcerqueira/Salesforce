@@ -4,5 +4,5 @@
     <columns>NAME</columns>
     <columns>TipoImovel__c</columns>
     <filterScope>Mine</filterScope>
-    <label>Mostra Imóveis</label>
+    <label>Mostrar Imóveis</label>
 </ListView>
