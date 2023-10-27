@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>TipoImovel__c</fullName>
+    <fullName>Mobiliado__c</fullName>
+    <description>possui mobilia no imovel</description>
     <externalId>false</externalId>
-    <inlineHelpText>Escolha o Tipo do Imóvel</inlineHelpText>
-    <label>Tipo de Imóvel</label>
+    <inlineHelpText>Escolha se o imovel é mobiliado</inlineHelpText>
+    <label>Mobiliado</label>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -12,19 +13,19 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Nenhum</fullName>
+                <fullName>Escolha</fullName>
                 <default>true</default>
-                <label>Nenhum</label>
+                <label>Escolha</label>
             </value>
             <value>
-                <fullName>Casa</fullName>
+                <fullName>Sim</fullName>
                 <default>false</default>
-                <label>Casa</label>
+                <label>Sim</label>
             </value>
             <value>
-                <fullName>Apartamento</fullName>
+                <fullName>Não</fullName>
                 <default>false</default>
-                <label>Apartamento</label>
+                <label>Não</label>
             </value>
         </valueSetDefinition>
     </valueSet>

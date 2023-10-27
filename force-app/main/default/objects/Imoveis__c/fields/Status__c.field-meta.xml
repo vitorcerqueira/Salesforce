@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>TipoImovel__c</fullName>
+    <fullName>Status__c</fullName>
+    <description>Imovel esta disponivel ou nao</description>
     <externalId>false</externalId>
-    <inlineHelpText>Escolha o Tipo do Imóvel</inlineHelpText>
-    <label>Tipo de Imóvel</label>
+    <inlineHelpText>Escolha disponibilidade do imovel</inlineHelpText>
+    <label>Status</label>
     <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -17,14 +18,14 @@
                 <label>Nenhum</label>
             </value>
             <value>
-                <fullName>Casa</fullName>
+                <fullName>Disponivel</fullName>
                 <default>false</default>
-                <label>Casa</label>
+                <label>Disponivel</label>
             </value>
             <value>
-                <fullName>Apartamento</fullName>
+                <fullName>Indisponivel</fullName>
                 <default>false</default>
-                <label>Apartamento</label>
+                <label>Indisponivel</label>
             </value>
         </valueSetDefinition>
     </valueSet>

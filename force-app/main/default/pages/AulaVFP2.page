@@ -1,0 +1,5 @@
+<apex:page >
+    <h1>
+        Hello wolrd!
+    </h1>
+</apex:page>

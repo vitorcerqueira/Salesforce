@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipos_Comerciais__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Escolha um tipo comercial para o imovel com finalidade comercial</inlineHelpText>
+    <label>Tipos Comerciais</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Finalidade_do_Imovel__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nenhum</fullName>
+                <default>false</default>
+                <label>Nenhum</label>
+            </value>
+            <value>
+                <fullName>Lojas de autopeças</fullName>
+                <default>false</default>
+                <label>Lojas de autopeças</label>
+            </value>
+            <value>
+                <fullName>Farmcia</fullName>
+                <default>false</default>
+                <label>Farmcia</label>
+            </value>
+            <value>
+                <fullName>Igreja</fullName>
+                <default>false</default>
+                <label>Igreja</label>
+            </value>
+            <value>
+                <fullName>Oficina Mecanica</fullName>
+                <default>false</default>
+                <label>Oficina Mecanica</label>
+            </value>
+            <value>
+                <fullName>Galpão</fullName>
+                <default>false</default>
+                <label>Galpão</label>
+            </value>
+            <value>
+                <fullName>Fabrica</fullName>
+                <default>false</default>
+                <label>Fabrica</label>
+            </value>
+            <value>
+                <fullName>Salão de beleza</fullName>
+                <default>false</default>
+                <label>Salão de beleza</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Lojas de autopeças</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Farmcia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Igreja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Oficina Mecanica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Galpão</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Fabrica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comercial</controllingFieldValue>
+            <valueName>Salão de beleza</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

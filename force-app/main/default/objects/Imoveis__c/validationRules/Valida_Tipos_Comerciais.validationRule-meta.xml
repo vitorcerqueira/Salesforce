@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Tipos_Comerciais</fullName>
+    <active>true</active>
+    <description>Esta regra valida o campo do tipo comercial</description>
+    <errorConditionFormula>AND( 
+
+  ISPICKVAL(Finalidade_do_Imovel__c, &apos;Comercial&apos;), 
+  ISPICKVAL( Tipos_Comerciais__c, &apos;&apos;)  
+
+)</errorConditionFormula>
+    <errorDisplayField>Tipos_Comerciais__c</errorDisplayField>
+    <errorMessage>Voce precisa escolhar um tipo comercial sempre que a finalidade for COMERCIAL</errorMessage>
+</ValidationRule>
