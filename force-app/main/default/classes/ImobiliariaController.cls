@@ -1,6 +1,6 @@
 public class ImobiliariaController {
     
-    //Definiçoes das variaveis
+    //Definiçoes das variaveis//TESTEs
     public integer quartos {get; set;} // é a interaçao das variaveis da pagina visual force com o banco de dados, get e set é recebe e enviar as informaçoes
     public integer Banheiros {get; set;}
     public integer Sala {get; set;}
